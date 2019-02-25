@@ -45,6 +45,10 @@ dependencies {
     testCompile "junit:junit:4.12"
     testCompile "io.micronaut:micronaut-inject-java"
 
+    //tag::discoveryclient[]
+    runtime "io.micronaut:micronaut-discovery-client"
+    //end::discoveryclient[]
+
     compile "io.micronaut:micronaut-management"
 
     //tag::tracing[]

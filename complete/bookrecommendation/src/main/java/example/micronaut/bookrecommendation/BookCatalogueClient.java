@@ -7,7 +7,7 @@ import io.reactivex.Flowable;
 //end::packageandimports[]
 
 //tag::harcoded[]
-@Client("http://localhost:8081") // <1>
+@Client(id="bookcatalogue") // <1>
 //end::harcoded[]
 //tag::clazz[]
 public interface BookCatalogueClient extends BookCatalogueOperations {
